@@ -1,4 +1,9 @@
-const a = [2, 4, 9, 10, 45, 67, 8, 90]
-console.log(a, 'boshlanishta array')
-const i = [2, 4, 10, 8, 90]
-console.log(i, 'juft sonlarga ajratilgan array');
+let array = [2, 4, 9, 10, 45, 67, 8, 90]
+let arr = []
+for(let i = 0; i < array.length ;i++){
+    if(array[i] % 2 == 0){
+       arr.push(array[i]) 
+    }
+}
+console.log(array, 'boshlanishta array');
+console.log(arr, 'juft sonlarga ajratilgan array');
