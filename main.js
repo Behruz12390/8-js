@@ -1,5 +1,5 @@
-let array = [2, 4, 9, 10, 45, 67, 8, 90]
-let arr = []
+const array = [2, 4, 9, 10, 45, 67, 8, 90]
+const arr = []
 for(let i = 0; i < array.length ;i++){
     if(array[i] % 2 == 0){
        arr.push(array[i]) 
